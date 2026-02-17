@@ -1,4 +1,4 @@
-summary_text = """
+
 INSURANCE DATA ANALYSIS PROJECT SUMMARY
 
 1. The dataset was collected from Kaggle.
@@ -18,9 +18,3 @@ INSURANCE DATA ANALYSIS PROJECT SUMMARY
    - Boxplot (Smoker vs Charges)
    - Scatterplot (Age vs Charges)
    - Distribution Plot (Charges)
-"""
-
-with open("project_summary.txt", "w") as file:
-    file.write(summary_text)
-
-print("Summary file created successfully!")
