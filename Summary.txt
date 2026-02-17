@@ -1,0 +1,26 @@
+summary_text = """
+INSURANCE DATA ANALYSIS PROJECT SUMMARY
+
+1. The dataset was collected from Kaggle.
+2. Data cleaning was performed by:
+   - Removing duplicate rows
+   - Cleaning column names
+   - Checking missing values
+3. Data filtering was done based on:
+   - Gender
+   - Smoker status
+   - Age groups
+4. Data analysis showed:
+   - Smokers pay much higher insurance charges.
+   - Age and BMI influence insurance cost.
+   - Gender has slight impact on charges.
+5. Various visualizations were created:
+   - Boxplot (Smoker vs Charges)
+   - Scatterplot (Age vs Charges)
+   - Distribution Plot (Charges)
+"""
+
+with open("project_summary.txt", "w") as file:
+    file.write(summary_text)
+
+print("Summary file created successfully!")
